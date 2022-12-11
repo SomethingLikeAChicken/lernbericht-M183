@@ -11,7 +11,7 @@ Ich habe verschiedene Methoden gelernt wie man sich als Developer vor einer XSS 
 
 ## Beschreibung
 
-```
+```Java
 // Eine Methode, die Benutzerdaten validiert und bereinigt (Formatvalidator)
 public String sanitizeUserInput(String userInput) {
   // Entferne mögliche schädliche Skripts oder HTML-Code aus der Eingabe des Benutzers
@@ -35,7 +35,7 @@ Eine andere Möglichkeit, sich vor XSS-Attacken (Cross-Site Scripting) zu schüt
 
 ## Verifikation
 
-In meinen Medien die ich vorgestellt habe, sieht man eine Möglichkeit sich vor XSS zu schützen, und genau das habe ich gelernt in diesem Modul.
+In meinen Medien die ich vorgestellt habe, sieht man verschiedene Möglichkeiten sich vor XSS zu schützen, und genau das habe ich gelernt in diesem Modul. 
 
 # Reflektion zum Arbeitsprozess
 
