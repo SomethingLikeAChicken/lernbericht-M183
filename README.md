@@ -32,6 +32,7 @@ Das scheint auf den ersten Blick etwas unhandlich, löst aber das Problem. Mit d
 
 Eine andere Möglichkeit, sich vor XSS-Attacken (Cross-Site Scripting) zu schützen, ist das Validieren von Benutzereingaben. Auf diese Weise werden unerwünschte Skripte und HTML-Code von Benutzern verhindert, bevor sie in die Website eingefügt werden. Um Benutzereingaben bezüglich XSS (Cross-Site Scripting) zu validieren, kann man ähnliche Methoden wie bei der allgemeinen Validierung von Benutzereingaben verwenden. Eine Möglichkeit ist die Verwendung von Regular Expressions (RegEx), um sicherzustellen, dass keine unerwünschten Skripte oder HTML-Code in die Eingaben eingegeben werden.Eine andere Möglichkeit ist die Verwendung von Formatvalidatoren (Codebeispiel), die festlegen, welche Zeichen und Zeichenfolgen in einem bestimmten Eingabefeld erlaubt sind. Es ist wichtig, mehrere Schichten von Validierung zu verwenden, um sicherzustellen, dass Benutzereingaben sicher und frei von XSS-Attacken sind.
 
+![XSS Basics](https://media.geeksforgeeks.org/wp-content/uploads/20190516152959/Cross-Site-ScriptingXSS.png)
 
 ## Verifikation
 
