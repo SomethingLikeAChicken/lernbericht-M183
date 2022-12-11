@@ -11,9 +11,8 @@ Ich habe verschiedene Methoden gelernt wie man sich als Developer vor einer XSS 
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 ```
-// Eine Methode, die Benutzerdaten validiert und bereinigt
+// Eine Methode, die Benutzerdaten validiert und bereinigt (Formatvalidator)
 public String sanitizeUserInput(String userInput) {
   // Entferne mögliche schädliche Skripts oder HTML-Code aus der Eingabe des Benutzers
   String sanitizedInput = userInput.replaceAll("<script>", "")
@@ -31,12 +30,8 @@ public String sanitizeUserInput(String userInput) {
 ```
 Das scheint auf den ersten Blick etwas unhandlich, löst aber das Problem. Mit dieser Methode kann man nun jeden Userinput "reinigen", das bedeutet man nimmt alle "verbotenen" Zeichen aus dem Input heraus.
 
+Eine andere Möglichkeit, sich vor XSS-Attacken (Cross-Site Scripting) zu schützen, ist das Validieren von Benutzereingaben. Auf diese Weise werden unerwünschte Skripte und HTML-Code von Benutzern verhindert, bevor sie in die Website eingefügt werden. Um Benutzereingaben bezüglich XSS (Cross-Site Scripting) zu validieren, kann man ähnliche Methoden wie bei der allgemeinen Validierung von Benutzereingaben verwenden. Eine Möglichkeit ist die Verwendung von Regular Expressions (RegEx), um sicherzustellen, dass keine unerwünschten Skripte oder HTML-Code in die Eingaben eingegeben werden.Eine andere Möglichkeit ist die Verwendung von Formatvalidatoren (Codebeispiel), die festlegen, welche Zeichen und Zeichenfolgen in einem bestimmten Eingabefeld erlaubt sind. Es ist wichtig, mehrere Schichten von Validierung zu verwenden, um sicherzustellen, dass Benutzereingaben sicher und frei von XSS-Attacken sind.
 
-
-* Eine textliche Beschreibung
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
 
 ## Verifikation
 
